@@ -1,0 +1,43 @@
+BenchmarkBinarySearch100000
+BenchmarkBinarySearch100000-12
+66116818                19.24 ns/op            0 B/op          0 allocs/op
+
+BenchmarkBinarySearch100000
+BenchmarkBinarySearch100000-12
+66849387                18.05 ns/op            0 B/op          0 allocs/op
+
+
+BenchmarkBinarySearch100000
+BenchmarkBinarySearch100000-12
+63594688                17.81 ns/op            0 B/op          0 allocs/op
+
+
+BenchmarkBubbleSort10000
+BenchmarkBubbleSort10000-12
+      14          79164429 ns/op               0 B/op          0 allocs/op
+
+
+BenchmarkBubbleSort10000
+BenchmarkBubbleSort10000-12
+      14          78178721 ns/op               0 B/op          0 allocs/op
+
+
+BenchmarkBubbleSort10000
+BenchmarkBubbleSort10000-12
+      14          79305136 ns/op               0 B/op          0 allocs/op
+
+
+BenchmarkReadFromFile
+BenchmarkReadFromFile-12
+   10000            100840 ns/op            4880 B/op          5 allocs/op
+
+
+BenchmarkReadFromFile
+BenchmarkReadFromFile-12
+   12339            100303 ns/op            4880 B/op          5 allocs/op
+
+
+BenchmarkReadFromFile
+BenchmarkReadFromFile-12
+   12122            100034 ns/op            4880 B/op          5 allocs/op
+
