@@ -13,15 +13,7 @@ func generateSlice(n int) []int {
 	return s
 }
 
-//func BenchmarkBubbleSort1000(b *testing.B) {
-//	for n := 0; n < b.N; n++ {
-//		b.StopTimer()
-//		s := generateSlice(1000)
-//		b.StartTimer()
-//		bubbleSort(s)
-//	}
-//}
-
+// feel free to test this with slices/arrays of varying sizes to evaluate further
 func BenchmarkBubbleSort10000(b *testing.B) {
 	for n := 0; n < b.N; n++ {
 		b.StopTimer()
@@ -30,12 +22,3 @@ func BenchmarkBubbleSort10000(b *testing.B) {
 		bubbleSort(s)
 	}
 }
-
-//func BenchmarkBuildInSort100000(b *testing.B) {
-//	for n := 0; n < b.N; n++ {
-//		b.StopTimer()
-//		s := generateSlice(100000)
-//		b.StartTimer()
-//		sort.Ints(s)
-//	}
-//}
